@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           
+        }
+        .container{
+            height: 100vh;
+            background-color: black;
+        }
+
+        #box1{
+
+            height: 10%;
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #box2{
+            height: 80%;
+            background-color: red;
+        }
+        #box3{
+            height: 10%;
+            background-color: green;
+        }
+
+        .logo{
+
+            width: 20%;
+            height: 70%;
+            background-color: black;
+        }
+        
+
+        .menu{
+
+            width: 40%;
+            height: 70%;
+            background-color: black;
+        }
+
+        .menu ul{
+
+            display: flex;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu ul li{
+
+            color: white;
+            list-style: none;
+            font-size: 25px;
+        }
+
+        .button{
+
+            width: 20%;
+            height: 70%;
+            background-color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+              
+
+            padding: 15px 30px;
+            margin: 5px;
+            background-color: green;
+            border: none;
+            color: white;
+            font-weight: bold;
+
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <div class="logo">
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Menu</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Register</li>
+                </ul>
+            </div>
+            <div class="button">
+                 <button>Login</button>
+                 <button>Signup</button>
+            </div>
+        </div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+    </div>
+</body>
+</html>
